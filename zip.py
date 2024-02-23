@@ -16,6 +16,4 @@ if uploaded_file is not None:
         compressed_data,
         file_name=uploaded_file.name + ".gz",
     )
-    # with open(uploaded_file.name, "wb") as f:
-    #     f.write(uploaded_file.getbuffer())
-    # st.success("File Saved")
+
